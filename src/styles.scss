@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.light-theme {
+  @import 'assets/styles/light';
+  @import '~highcharts/css/highcharts';
+}
+
+.dark-theme {
+  @import 'assets/styles/dark';
+  @import '~highcharts/css/highcharts';
+}
